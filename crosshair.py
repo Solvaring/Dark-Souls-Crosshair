@@ -1,7 +1,7 @@
 import sys
-from PyQt5 import QtGui, QtCore, QtWidgets
+from PyQt4 import QtGui, QtCore
 
-class Crosshair(QtWidgets):
+class Crosshair(QtGui.QWidget):
     #----------------------------------------------------------------------
     def __init__(self):
         super(Crosshair, self).__init__()
